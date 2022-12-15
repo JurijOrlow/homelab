@@ -1,0 +1,14 @@
+version: "3.8"
+
+services: 
+  caddy:
+    image: caddy:alpine
+    restart: always
+    container_name: caddy
+    volumes:
+      - /opt/docker/caddy/cddata/Caddyfile:/etc/caddy/Caddyfile
+      - /opt/docker/caddy/cddata/certs:/certs
+      - /opt/docker/caddy/cddata/config:/config
+      - /opt/docker/caddy/cddata/data:/data
+      - /opt/docker/caddy/cddata/sites:/srv
+    network_mode: "host"

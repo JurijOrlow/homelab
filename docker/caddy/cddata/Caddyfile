@@ -1,0 +1,11 @@
+https://<heimdall-domain>:443 {
+	reverse_proxy localhost:<heimdall-port>
+}
+
+https://<bitwarden-domain>:443 {
+	reverse_proxy localhost:<bitwarden-port>
+}
+
+https://<nextcloud-domain>:443 {
+	reverse_proxy localhost:<nextcloud-port>
+}
