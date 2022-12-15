@@ -1,4 +1,3 @@
----
 # Full homelab config tutorial
 ## Bitwarden, Nextcloud and Heimdall hosted on premise
 
