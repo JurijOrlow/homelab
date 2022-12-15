@@ -4,6 +4,8 @@
 *Version for ARM processors, like RaspberryPi or Oracle Cloud A1 architecture*
 
 ---
+![Heimdall](https://user-images.githubusercontent.com/32055243/207989857-0c52827e-775f-463c-927d-b4120e42b12e.png)
+---
 
 This repository contains docker files and instructions needed to run your very own on premise homelab, complete with cloud-accessible Bitwarden password manager, cloud-accessible Nextcloud storage and office suite, and Heimdall for providing nice and coherent dashboard for your lab. Everything secured by SSL connections - certificates generated via Letsencrypt.
 
